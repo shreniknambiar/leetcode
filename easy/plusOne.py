@@ -4,6 +4,7 @@ class Solution:
         j=0
         l=len(digits)-1
         res=0
+	#for last digit not ending with 9
         if digits[l] != 9:
             digits[l] = digits[l]+1
             return digits
@@ -21,3 +22,4 @@ class Solution:
                 res_list.insert(0,mod)
                 res=res//10
             return res_list
+
