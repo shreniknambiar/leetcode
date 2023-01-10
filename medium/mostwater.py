@@ -14,4 +14,4 @@ class Solution:
             else:
                 left+=1
         
-        return area
+        return are
